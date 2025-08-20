@@ -1,7 +1,14 @@
+import Kit from "./assets/kit.jpg";
+
 import "./App.css";
 
 function App() {
-  return <>Китэлоу</>;
+  return (
+    <>
+      <h1>Китэлоу</h1>
+      <img src={Kit} className="logo react" alt="React logo" />
+    </>
+  );
 }
 
 export default App;
