@@ -12,7 +12,8 @@ export NVM_DIR="$HOME/.nvm"
 cd $APP_DIR
 
 # Подтягиваем последние изменения
-git pull
+git fetch --all
+git reset --hard origin/main
 
 
 # Устанавливаем зависимости
