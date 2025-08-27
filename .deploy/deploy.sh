@@ -5,11 +5,15 @@ set -e
 APP_DIR="/root/test-deploy"
 NGINX_DIR="/var/www/test-deploy"
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
 # Переходим в папку с проектом
 cd $APP_DIR
 
 # Подтягиваем последние изменения
 git pull
+
 
 # Устанавливаем зависимости
 npm install
