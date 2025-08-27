@@ -24,6 +24,6 @@ rm -rf $NGINX_DIR/*
 cp -r $APP_DIR/dist/* $NGINX_DIR/
 
 # Перезапускаем nginx
-sudo systemctl reload nginx
+systemctl reload nginx
 
 echo "✅ Деплой завершён"
