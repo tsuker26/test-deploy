@@ -8,10 +8,10 @@ export default function Resume() {
         <h2>Frontend-разработчик</h2>
         <div className="contact">
           <p>
-            Email: <a href="mailto:tsuker26@bk.ru">tsuker26@bk.ru</a>
+            Email: <a>tsuker26@bk.ru</a>
           </p>
           <p>
-            Telegram: <a href="https://t.me/tsuker26">@tsuker26</a>
+            Telegram: <a>@tsuker</a>
           </p>
         </div>
       </header>
